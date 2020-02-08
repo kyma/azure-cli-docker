@@ -8,4 +8,6 @@ RUN tar -xvzf azure-cli_bundle.tar.gz
 RUN azure-cli_bundle_*/installer
 ENV PATH=$PATH:/root/bin
 
+
+
 CMD ["/bin/bash"]
